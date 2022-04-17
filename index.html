@@ -7,27 +7,55 @@
         <link rel="stylesheet" href="css/bootstrap.css">
 
         <style>
-            .row [class^=col-], .row .col{
-                background-color: #CCC;
-                border: #000 solid 1px;
-                height: 50px;
+            .avatar{
+                width: 60px;
+                height: 60px;
             }
 
-            .row{
-                padding: 10px;
-                background-color: #FF00FF;
-                height: 500px;
-                margin-top: 10px;
+            .d-flex{
+                border: 1px #000 solid;
+                background-color: rgba(204, 204, 204, 0.699);
             }
         </style>
     </head>
     <body>
-       <div class="container-fluid">
-            <div class="row justify-content-end align-items-end">
-                <div class="col-sm-3" >Div 1</div>
-                <div class="col-sm-3" >Div 2</div>
-                <div class="col-sm-3" >Div 3</div>
-            </div>
+       <div class="container">
+
+            <ul class="list-unstylied">
+                <li class="d-flex">
+                    <img src="gato.jpg" class="mr-3 avatar align-self-center">
+                    <div class="felx-grow-1 ms-3">
+                        <h5>AUTOR DO COMENTÁRIO</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Soluta ipsa facere a necessitatibus repudiandae ad corporis nobis 
+                            molestias amet molestiae eos rem quia, quam nam dolorem accusantium debitis 
+                            accusamus pariatur!</p>
+                    </div>
+                </li>
+
+                <li class="d-flex">
+                    <img src="gato.jpg" class="mr-3 avatar align-self-center">
+                    <div class="flex-grow-1 ms-3">
+                        <h5>AUTOR DO COMENTÁRIO</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Soluta ipsa facere a necessitatibus repudiandae ad corporis nobis 
+                            molestias amet molestiae eos rem quia, quam nam dolorem accusantium debitis 
+                            accusamus pariatur!</p>
+                    </div>
+                </li>
+
+                <li class="d-flex">
+                    <img src="gato.jpg" class="mr-3 avatar align-self-center">
+                    <div class="flex-grow-1 ms-3">
+                        <h5>AUTOR DO COMENTÁRIO</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Soluta ipsa facere a necessitatibus repudiandae ad corporis nobis 
+                            molestias amet molestiae eos rem quia, quam nam dolorem accusantium debitis 
+                            accusamus pariatur!</p>
+                    </div>
+                </li>
+            </ul>
+
         </div>
 
         <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
